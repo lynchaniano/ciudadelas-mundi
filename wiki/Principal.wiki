@@ -3,14 +3,10 @@
 = Indice =
 
  # [#Introduccion Introduccion]
- # [#Metodologia_de_trabajo Metodologia]
+ # [#Metodologia_de_trabajo Metodologia de trabajo]
 
 
 == Introduccion ==
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
-
 == Metodologia de trabajo ==
+[http://ciudadelas.bananascrum.com/projects/py_ciudadelas]

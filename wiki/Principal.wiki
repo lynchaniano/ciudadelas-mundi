@@ -3,11 +3,11 @@
 = Indice =
 
  # Introduccion
- # Introduccion
+ # [#Introduccion2 pepe]
 
 [Intro hola]
 
-== Introduccion ==
+== Introduccion2 ==
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_

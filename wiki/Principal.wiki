@@ -2,14 +2,15 @@
 
 = Indice =
 
- # Introduccion
- # [#Introduccion2 pepe]
+ # [#Introduccion Introduccion]
+ # [#Metodología_de_trabajo Metodología de trabajo]
 
-[Intro hola]
 
-== Introduccion2 ==
+== Introduccion ==
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
   * Headings, paragraphs, and lists
   * Automatic links to other wiki pages
+
+== Metodología de trabajo ==

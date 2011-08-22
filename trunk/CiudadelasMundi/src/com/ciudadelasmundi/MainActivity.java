@@ -5,7 +5,7 @@ import android.os.Bundle;
 
 public class MainActivity extends Activity {
 	
-	private static final String LOGTAG = "CiudadelasMundi";
+	//private static final String LOGTAG = "CiudadelasMundi";
     		
     @Override
     public void onCreate(Bundle savedInstanceState) {

@@ -9,4 +9,7 @@
 == Introduccion ==
 
 == Metodologia de trabajo ==
+La metodología de trabajo a seguir en el proyecto es mediante Sprint y Task siguiendo el marco de trabajo [http://es.wikipedia.org/wiki/Scrum SCRUM]
+
+
 [http://ciudadelas.bananascrum.com/projects/py_ciudadelas]

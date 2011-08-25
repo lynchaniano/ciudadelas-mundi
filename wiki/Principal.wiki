@@ -9,7 +9,7 @@
 == Introduccion ==
 
 == Metodologia de trabajo ==
-La metodología de trabajo a seguir en el proyecto es mediante Sprint y Task siguiendo el marco de trabajo [http://es.wikipedia.org/wiki/Scrum SCRUM]
+El desarrollo del software seguirá la metodología de trabajo mediante Sprint y Task siguiendo el marco de trabajo [http://es.wikipedia.org/wiki/Scrum SCRUM]
 
-
+La planificación de los sprint estará gestionada mediante servidor de bananascrum en la siguiente dirección:
 [http://ciudadelas.bananascrum.com/projects/py_ciudadelas]

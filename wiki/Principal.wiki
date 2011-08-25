@@ -6,6 +6,7 @@
  # [#Metodologia_de_trabajo Metodologia de trabajo]
  # [#Herramientas Herramientas]
   # [#Eclipse Eclipse]
+  * [#Sincronizar_proyecto_con_SVN Sincronizar proyecto con SVN]
 
 
 == Introduccion ==
@@ -20,3 +21,4 @@ La planificación de los sprint estará gestionada mediante servidor de bananasc
 
 
 === Eclipse ===
+==== Sincronizar proyecto con SVN ====

@@ -60,6 +60,7 @@ Si se pulsa en Next podemos seguir configurando la conexión, clickando en Finis
  * Descargar proyecto
 Si lo que queremos es cargar un proyecto ya ha subido a SVN, tendremos que crear un nuevo proyecto desde el servidor SVN en el que se aloja el proyecto a descargar.
 
+
 Es importe tener la vista Team Synchronizing a mano (La podemos obtener desde Window -> Open perspective -> others ...) porque es una de las vistas que nos facilita las tareas de:
 
   * Commit - Envia los cambios realizados al servidor (es una buena costumbre comentar los commits para poder hacer un fácil seguimiento a posteriori de qué y cuando se ha cambiado algo en cada fichero)

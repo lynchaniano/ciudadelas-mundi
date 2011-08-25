@@ -7,7 +7,7 @@
  # [#Herramientas Herramientas]
   # [#Eclipse Eclipse]
    * [#Sincronizar_proyecto_con_SVN Sincronizar proyecto con SVN]
-
+   * [#Instalar_SDK_de_Android Instalar SDK de Android]
 
 == Introduccion ==
 
@@ -21,6 +21,22 @@ La planificación de los sprint estará gestionada mediante servidor de bananasc
 
 
 === Eclipse ===
+==== Instalar SDK de Android ====
+Para instalar el plugin de Android para Eclipse:
+
+1- Añadir Site a instalar plugin: Ir al menu Help/Software Updates aparecerá una ventana ir a la pestaña Avaliable Updates, Add site y añadir la siguiente dirección: 
+
+https://dl-ssl.google.com/android/eclipse/
+
+2- Instalar el plugin: Una vez añadido la url, podrás seleccionar Developer Tools y darle a instalar.
+IMPORTANTE:Una vez instalado tienes que reiniciar Eclipse para aplicar los cambios
+
+3- Descargar SDK Android y descomprmir o instalar: 
+http://developer.android.com/sdk/index.html
+
+
+4- Añadir la ruta del SDK en eclipse: Ir al menu Window/Preferences y en la ventana que aparecerá, apartado Android añadir la ruta.
+
 ==== Sincronizar proyecto con SVN ====
 Para utilizar subversion en el entorno Eclipse utilizaremos el plugin Subclipse. La instalación consiste en añadir el repositorio http://subclipse.tigris.org/update_1.6.x (para subclipse 1.6) a la sección "Help->Software Updates" de Eclipse e instalar todo el contenido existente en dicho repositorio.
 

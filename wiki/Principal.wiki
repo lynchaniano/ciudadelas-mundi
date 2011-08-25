@@ -4,6 +4,8 @@
 
  # [#Introduccion Introduccion]
  # [#Metodologia_de_trabajo Metodologia de trabajo]
+ # [#Herramientas Herramientas]
+  # [#Eclipse Eclipse]
 
 
 == Introduccion ==
@@ -13,3 +15,8 @@ El desarrollo del software seguirá la metodología de trabajo mediante Sprint y
 
 La planificación de los sprint estará gestionada mediante servidor de bananascrum en la siguiente dirección:
 [http://ciudadelas.bananascrum.com/projects/py_ciudadelas]
+
+== Herramientas ==
+
+
+=== Eclipse ===

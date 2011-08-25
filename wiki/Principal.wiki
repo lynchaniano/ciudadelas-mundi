@@ -6,8 +6,8 @@
  # [#Metodologia_de_trabajo Metodologia de trabajo]
  # [#Herramientas Herramientas]
   # [#Eclipse Eclipse]
-   * [#Sincronizar_proyecto_con_SVN Sincronizar proyecto con SVN]
    * [#Instalar_SDK_de_Android Instalar SDK de Android]
+   * [#Sincronizar_proyecto_con_SVN Sincronizar proyecto con SVN]
 
 == Introduccion ==
 

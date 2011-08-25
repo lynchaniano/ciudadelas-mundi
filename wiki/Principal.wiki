@@ -22,3 +22,34 @@ La planificación de los sprint estará gestionada mediante servidor de bananasc
 
 === Eclipse ===
 ==== Sincronizar proyecto con SVN ====
+Lo primero que debemos hacer es evidentemente entrar a la web de GoogleCode:
+
+https://code.google.com/hosting/
+
+Una vez dentro, pinchamos en Sign in to create a project. Nos pedirá nuestro usuario de gmail. En esta ventana introducimos el nombre del proyecto, una descripción del mismo, licencia, etiquetas…
+
+De esta forma ya disponemos de nuestro espacio creado. A continuación se va a explicar cómo desarrollar un control de versiones mediante SVN en Eclipse.
+
+Lo primero es obtener la dirección donde se encuentra nuestro GoogleCode y contraseña (no es la misma que la relacionada a nuestra cuenta gmail). El nombre de usuario que se necesita es nuestra cuenta de correo gmail.
+
+La dirección que se necesita para el control de versiones mediante SVN es la siguiente:
+
+https://nombreproyecto.googlecode.com/svn/
+
+donde nombreproyecto es el nombre que se le dio anteriormente. De todas formas esto se puede comprobar en la pestaña Source.
+
+En el caso de querer acceder a nuestro proyecto mediante el navegador, el enlace es como sigue:
+
+https://code.google.com/p/nombreproyecto/
+
+Para obtener la contraseña nos vamos al link Profile -> Settings: el password que ahí nos aparece es el que vamos a necesitar cuando usemos SVN.
+
+En Eclipse
+
+Suponiendo que ya tenemos un proyecto creado en Eclipse, vamos a enlazarlo a nuestro espacio antes creado. Para ello hay que tener instalado un cliente SVN en Eclipse (en este caso, Subversion). Hacemos click derecho sobre el proyecto -> Team -> Share Project.
+
+Si nos aparece una ventana en la que elegir CSV o SVN, elegimos SVN.
+
+A continuación aparece la siguiente ventana donde tenemos que poner la dirección que se mostró anteriormente para SVN, y colocar debajo el usuario (tu cuenta de correo gmail) y el password localizado anteriormente.
+
+Si se pulsa en Next podemos seguir configurando la conexión, clickando en Finish se va a proceder a subir por primera vez al servidor lo que tuvieramos en ese proyecto.

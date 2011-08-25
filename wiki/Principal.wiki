@@ -40,7 +40,7 @@ http://developer.android.com/sdk/index.html
 ==== Sincronizar proyecto con SVN ====
 Para utilizar subversion en el entorno Eclipse utilizaremos el plugin Subclipse. La instalación consiste en añadir el repositorio http://subclipse.tigris.org/update_1.6.x (para subclipse 1.6) a la sección "Help->Software Updates" de Eclipse e instalar todo el contenido existente en dicho repositorio.
 
-Lo primero que debemos hacer es evidentemente entrar a la web de GoogleCode:
+Lo primero que debemos hacer es evidentemente entrar a la web de GoogleCode
 
 https://code.google.com/hosting/
 

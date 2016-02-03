@@ -1,0 +1,87 @@
+# Indice #
+
+  1. [Introduccion](#Introduccion.md)
+  1. [Metodologia de trabajo](#Metodologia_de_trabajo.md)
+  1. [Herramientas](#Herramientas.md)
+    1. [Eclipse](#Eclipse.md)
+      * [Instalar SDK de Android](#Instalar_SDK_de_Android.md)
+      * [Sincronizar proyecto con SVN](#Sincronizar_proyecto_con_SVN.md)
+
+## Introduccion ##
+
+## Metodologia de trabajo ##
+El desarrollo del software seguirá la metodología de trabajo mediante Sprint y Task siguiendo el marco de trabajo [SCRUM](http://es.wikipedia.org/wiki/Scrum)
+
+La planificación de los sprint estará gestionada mediante servidor de bananascrum en la siguiente dirección:
+http://ciudadelas.bananascrum.com/projects/py_ciudadelas
+
+## Herramientas ##
+
+
+### Eclipse ###
+#### Instalar SDK de Android ####
+Para instalar el plugin de Android para Eclipse:
+
+1- Añadir Site a instalar plugin: Ir al menu Help/Software Updates aparecerá una ventana ir a la pestaña Avaliable Updates, Add site y añadir la siguiente dirección:
+
+https://dl-ssl.google.com/android/eclipse/
+
+2- Instalar el plugin: Una vez añadido la url, podrás seleccionar Developer Tools y darle a instalar.
+IMPORTANTE:Una vez instalado tienes que reiniciar Eclipse para aplicar los cambios
+
+3- Descargar SDK Android y descomprmir o instalar:
+http://developer.android.com/sdk/index.html
+
+
+4- Añadir la ruta del SDK en eclipse: Ir al menu Window/Preferences y en la ventana que aparecerá, apartado Android añadir la ruta.
+
+#### Sincronizar proyecto con SVN ####
+Para utilizar subversion en el entorno Eclipse utilizaremos el plugin Subclipse. La instalación consiste en añadir el repositorio http://subclipse.tigris.org/update_1.6.x (para subclipse 1.6) a la sección "Help->Software Updates" de Eclipse e instalar todo el contenido existente en dicho repositorio.
+
+Lo primero que debemos hacer es evidentemente entrar a la web de Google Code
+
+https://code.google.com/hosting/
+
+Una vez dentro, pinchamos en Sign in to create a project. Nos pedirá nuestro usuario de gmail. En esta ventana introducimos el nombre del proyecto, una descripción del mismo, licencia, etiquetas…
+
+De esta forma ya disponemos de nuestro espacio creado. A continuación se va a explicar cómo desarrollar un control de versiones mediante SVN en Eclipse.
+
+Lo primero es obtener la dirección donde se encuentra nuestro GoogleCode y contraseña (no es la misma que la relacionada a nuestra cuenta gmail). El nombre de usuario que se necesita es nuestra cuenta de correo gmail.
+
+La dirección que se necesita para el control de versiones mediante SVN es la siguiente:
+
+https://nombreproyecto.googlecode.com/svn/
+
+donde nombreproyecto es el nombre que se le dio anteriormente. De todas formas esto se puede comprobar en la pestaña Source.
+
+En el caso de querer acceder a nuestro proyecto mediante el navegador, el enlace es como sigue:
+
+https://code.google.com/p/nombreproyecto/
+
+Para obtener la contraseña nos vamos al link Profile -> Settings: el password que ahí nos aparece es el que vamos a necesitar cuando usemos SVN.
+
+En Eclipse
+
+  * Subir proyecto
+Suponiendo que ya tenemos un proyecto creado en Eclipse, vamos a enlazarlo a nuestro espacio antes creado. Para ello hay que tener instalado un cliente SVN en Eclipse (en este caso, Subversion). Hacemos click derecho sobre el proyecto -> Team -> Share Project.
+
+Si nos aparece una ventana en la que elegir CSV o SVN, elegimos SVN.
+
+A continuación aparece la siguiente ventana donde tenemos que poner la dirección que se mostró anteriormente para SVN, y colocar debajo el usuario (tu cuenta de correo gmail) y el password localizado anteriormente.
+
+Si se pulsa en Next podemos seguir configurando la conexión, clickando en Finish se va a proceder a subir por primera vez al servidor lo que tuvieramos en ese proyecto.
+
+  * Descargar proyecto
+Si lo que queremos es cargar un proyecto ya ha subido a SVN, tendremos que crear un nuevo proyecto desde el servidor SVN en el que se aloja el proyecto a descargar.
+
+
+Es importe tener la vista Team Synchronizing a mano (La podemos obtener desde Window -> Open perspective -> others ...) porque es una de las vistas que nos facilita las tareas de:
+
+  * Commit - Envia los cambios realizados al servidor (es una buena costumbre comentar los commits para poder hacer un fácil seguimiento a posteriori de qué y cuando se ha cambiado algo en cada fichero)
+  * Revert - Sobreescribe un fichero modificado localmente por la última versión existente de este en el servidor
+  * Update - Descarga las actualizaciones existentes en el servidor
+  * Syncronize - Comprueba si hay nuevas actualizaciones en el servidor
+  * Mark as merged - Se utiliza para indicarle a Eclipse que se ha resuelto un conflicto
+  * Show history - Muestra el historial de cambios sobre un fichero o proyecto
+
+Para copiar o mover directorios completos se recomienda utilizar la perspectiva SVN Repository Exploring de Eclipse, sino pueden aparecer problemas de sincronización del proyecto (Eclipse no actualiza bien los directorios ocultos .svn en otras perspectivas).

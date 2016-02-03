@@ -1,0 +1,1 @@
+Proyecto para crear una aplicación Android que simule el juego original Ciudadelas.
